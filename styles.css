@@ -1,0 +1,83 @@
+html {
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+
+
+}
+
+h1 {
+  text-align: center
+}
+
+header {
+  background-color: rgb(36, 25, 87);
+  display: grid;
+  padding: 0.5%;
+  width: 100%;
+  height: 100%;
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+
+}
+
+div {
+  display: grid;
+  float: right;
+  margin-left: 70%;
+  margin-top: 1%;
+  margin-right: 1%;
+  grid-row-end: 3;
+  justify-content: space-evenly;
+
+
+
+}
+
+.Links {
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 0px 50px;
+  border-color: lightblue;
+  background-color: lightblue;
+  text-align: center;
+  margin-left: 5%;
+
+
+}
+
+.photo {
+
+  text-align: center;
+  margin-left: 300%;
+
+}
+
+.one {
+  display: grid;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  margin-left: 600%;
+  white-space: nowrap;
+  justify-content: space-evenly;
+
+
+}
+
+.aboutme {
+  margin-right: 85%;
+}
+
+.two {
+  white-space: nowrap;
+  margin-left: 100%;
+  margin-top: 10%;
+}
+
+.photo2 {
+
+  border-style: solid;
+  border-color: white;
+  border-radius: 2px;
+}
