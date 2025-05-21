@@ -22,7 +22,7 @@ header {
 
 }
 
-div {
+.link {
   display: grid;
   float: right;
   margin-left: 70%;
@@ -50,7 +50,7 @@ div {
 .photo {
 
   text-align: center;
-  margin-left: 300%;
+  
 
 }
 
@@ -58,7 +58,7 @@ div {
   display: grid;
   grid-row-start: 1;
   grid-row-end: 3;
-  margin-left: 600%;
+ margin-bottom: 100px;
   white-space: nowrap;
   justify-content: space-evenly;
 
@@ -71,8 +71,8 @@ div {
 
 .two {
   white-space: nowrap;
-  margin-left: 100%;
-  margin-top: 10%;
+  
+  margin-top: -80px;
 }
 
 .photo2 {
@@ -81,3 +81,53 @@ div {
   border-color: white;
   border-radius: 2px;
 }
+.Images{
+   display: grid;
+    grid-row-start: 1;
+  grid-row-end: 3;
+  justify-content: space-evenly;
+  margin-right: 70%;
+}
+
+
+.header{
+  display:grid;
+  grid-row-start: 1;
+  grid-row-end:2;
+    grid-row: 1;
+  text-align: center;
+  margin-right: 70%;
+   white-space: nowrap;
+}
+.Images2{
+margin-left: 30%;
+  margin-top: -620px;
+}
+.Imagetext{
+  margin-top: 275px;
+  margin-left: 50px;
+}
+.alchemlab{
+
+  margin-left: 750px;
+}
+.farmsnight{
+
+  margin-left: -300px;
+  margin-bottom: -100px;
+}
+.Linked{
+  margin-left: 60%;
+  margin-top: -600px;
+}
+.ucert{
+   margin-top: 5%;
+  margin-left: 30%
+  
+  
+}
+  .cert{
+margin-right: 40%;
+    text-align:center;
+  }
+
